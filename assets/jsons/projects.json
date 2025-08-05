@@ -1,0 +1,89 @@
+{
+  "projects": [
+    {
+      "id": "ebios",
+      "title": {
+        "fr": "Analyse et Gestion des Risques (EBIOS)",
+        "en": "Risk Analysis and Management (EBIOS)"
+      },
+      "image": "Ebios/ebios.png",
+      "detailsFile": {
+        "fr": "Ebios/ebios-fr.txt",
+        "en": "Ebios/ebios-en.txt"
+      },
+      "modalImages": [
+        "Ebios/ebios.png"
+      ]
+    },
+    {
+      "id": "openarena",
+      "title": {
+        "fr": "Architecture Réseau VLAN",
+        "en": "VLAN Network Architecture"
+      },
+      "image": "OpenArena/openarena.png",
+      "detailsFile": {
+        "fr": "OpenArena/openarena-fr.txt",
+        "en": "OpenArena/openarena-en.txt"
+      },
+      "modalImages": [
+        "OpenArena/openarena.png"
+      ]
+    },
+    {
+      "id": "phishing",
+      "title": {
+        "fr": "Campagne de Phishing",
+        "en": "Phishing Campaign"
+      },
+      "image": "Phishing/phishing campaign.png",
+      "detailsFile": {
+        "fr": "Phishing/phishing campaign-fr.txt",
+        "en": "Phishing/phishing campaign-en.txt"
+      },
+      "modalImages": [
+        "Phishing/phishing campaign.png"
+      ]
+    },
+    {
+      "id": "qos",
+      "title": {
+        "fr": "QoS dans un Réseau",
+        "en": "QoS Network"
+      },
+      "image": "QoS/QoS.png",
+      "detailsFile": {
+        "fr": "QoS/qos-fr.txt",
+        "en": "QoS/qos-en.txt"
+      },
+      "modalImages": [
+        "QoS/QoS.png"
+      ]
+    },
+    {
+      "id": "react-project",
+      "title": {
+        "fr": "React & Spring Boot",
+        "en": "React & Spring Boot"
+      },
+      "image": "React-project/react-project.png",
+      "detailsFile": {
+        "fr": "React-project/react-project-fr.txt",
+        "en": "React-project/react-project-en.txt"
+      },
+      "modalImages": [
+        "React-project/react-project.png",
+        "React-project/react-project-1.jpg",
+        "React-project/react-project-2.jpg",
+        "React-project/react-project-3.jpg",
+        "React-project/react-project-4.jpg",
+        "React-project/react-project-5.jpg",
+        "React-project/react-project-6.jpg",
+        "React-project/react-project-7.jpg",
+        "React-project/react-project-8.jpg",
+        "React-project/react-project-9.jpg",
+        "React-project/react-project-10.jpg"
+      ]
+    }
+  ]
+}

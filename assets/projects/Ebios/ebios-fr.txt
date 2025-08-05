@@ -1,0 +1,5 @@
+- Réalisation d’une étude de cas complète pour l’évaluation et la hiérarchisation des risques liés à un SI
+
+- Application rigoureuse de la méthodologie EBIOS Risk Manager (contextualisation, scénarios, mesures de sécurité)
+
+- Proposition de mesures de protection et plans de remédiation adaptés à la criticité des actifs et aux scénarios de menaces

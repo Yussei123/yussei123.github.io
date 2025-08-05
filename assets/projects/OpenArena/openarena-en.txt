@@ -1,0 +1,11 @@
+- Setup and configuration of firewalls for network segmentation and traffic security
+
+- Installation and administration of DNS, DHCP servers for name resolution and IP lease management
+
+- Deployment of a web server for game management, streaming, and pushing configurations to game stations (OpenArena game)
+
+- Deployment of a proxy server for filtering and controlling Internet access
+
+- Implementation and management of Active Directory (AD) for authentication and identity centralization
+
+- Strengthening security policies and user access control on Raspberry Pi game stations

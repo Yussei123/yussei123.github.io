@@ -1,0 +1,7 @@
+- Conception et déploiement d’une infrastructure isolée (machines virtuelles, réseau simulé) pour exécuter en toute sécurité des scénarios offensifs
+
+- Élaboration et automatisation d’une campagne de phishing réaliste (pages leurres) afin de tester la sensibilisation des utilisateurs
+
+- Développement d’un ransomware factice pour démontrer les mécanismes d’infection et chiffrage, en respectant les bonnes pratiques éthiques
+
+- Analyse des vecteurs d’attaque et proposition de contre-mesures : politiques de sécurité, sensibilisation, durcissement des systèmes.

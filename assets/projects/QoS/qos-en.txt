@@ -1,0 +1,7 @@
+- Deployment and configuration of network infrastructures (switches, routers) with IPv4 protocols
+
+- Implementation of static and dynamic routing (OSPF, RIP) and VLAN management
+
+- Configuration of Quality of Service (QoS) to prioritize critical flows
+
+- Administration of essential network services (DHCP, DNS, NAT, Firewall) and implementation of basic security (ACLs)

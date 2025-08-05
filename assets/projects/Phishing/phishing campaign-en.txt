@@ -1,0 +1,7 @@
+- Designed and deployed an isolated infrastructure (virtual machines, simulated network) to safely execute offensive scenarios
+
+- Developed and automated a realistic phishing campaign (decoy pages) to test user awareness
+
+- Developed a fake ransomware to demonstrate infection and encryption mechanisms, following ethical best practices
+
+- Analyzed attack vectors and proposed countermeasures: security policies, awareness, system hardening

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+<body>
+    <canvas id="starry-background"></canvas>
+    <header>
+        <div class="container">
+            <h1 class="logo">Mon Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#projects">Projets</a></li>
+                    <li><a href="#skills">Compétences</a></li>
+                    <li><a href="#learning-path">Parcours d'apprentissage</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="index.html" class="lang-switch">English</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h2>Je suis <span id="sliding-text-fr"></span></h2>
+            </div>
+        </section>
+
+
+         <section id="projects" style="padding:40px 0;">
+    <h2 style="text-align:center; margin-bottom:20px;">Projets</h2>
+    <div class="slider">
+        <div class="slide-track">
+            <!-- Les slides seront chargées dynamiquement -->
+        </div>
+    </div>
+    <div class="slider-controls">
+        <button id="slider-prev" aria-label="Précédent">&#8592;</button>
+        <button id="slider-next" aria-label="Suivant">&#8594;</button>
+    </div>
+    <div class="slider-progress">
+  <div class="slider-progress-bar"></div>
+</div>
+</section>
+
+<!-- MODAL -->
+<div id="projectModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div id="modal-body"></div>
+    </div>
+</div>
+
+        <section id="skills">
+            <div class="container">
+                <h2>Compétences</h2>
+                <div class="skill-filters">
+                    <button data-filter="all">Tous</button>
+                    <button data-filter="cybersecurity">Cybersécurité</button>
+                    <button data-filter="electricity">Électricité</button>
+                    <button data-filter="embedded-system">Systèmes Embarqués</button>
+                    <button data-filter="networks-system">Réseaux & Système</button>
+                    <button data-filter="software-development">Développement Logiciel</button>
+                    <button data-filter="web-development">Développement Web</button>
+                </div>
+                <div class="skills-grid">
+                    <!-- Les compétences seront chargées dynamiquement -->
+                </div>
+            </div>
+        </section>
+
+        <section id="learning-path" style="padding: 2rem;">
+            <h2 style="text-align:center; margin-bottom:2rem;">📚 Parcours d'apprentissage</h2>
+            <div class="learning-path-list">
+                <!-- Root-Me -->
+                <div class="rootme-box" style="border-radius:12px; box-shadow:none; padding:1.5rem; width:300px;">
+                    <img src="assets/images/rootme-logo.png" alt="Root-Me" style="width:60px; display:block; margin:auto;">
+                    <h3 style="text-align:center; margin-top:1rem;">Root-Me</h3>
+                    <p style="text-align:center;">Challenges réalisés : <strong>117</strong></p>
+                    <div>
+                        <p>Web-Serveur : 80%</p>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar-web-server" style="width:80%;"></div>
+                            
+                        </div>
+                        <p>Web-Client : 30%</p>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar-web-client" style="width:30%;"></div>
+                        </div>
+                        <p>Stéganographie : 4%</p>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar-stegano" style="width:4%;"></div>
+                        </div>
+                        <p>Réseaux : 20%</p>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar-reseaux" style="width:20%;"></div>
+                        </div>
+                        <p>Réaliste : 0%</p>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar-realiste" style="width:0%;"></div>
+                        </div>
+                        <p>Programmation : 17%</p>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar-prog" style="width:17%;"></div>
+                        </div>
+                        <p>Forensic : 2%</p>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar-forensic" style="width:2%;"></div>
+                        </div>
+                        <p>Cryptanalyse : 16%</p>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar-cryptanalyse" style="width:16%;"></div>
+                        </div>
+                        <p>Cracking : 0%</p>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar-cracking" style="width:0%;"></div>
+                        </div>
+                        <p>App-Système : 0%</p>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar-app-systeme" style="width:0%;"></div>
+                        </div>
+                        <p>App-Script : 0%</p>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar-app-script" style="width:0%;"></div>
+                        </div>
+                    </div>
+                    <div style="text-align:center; margin-top:1rem;">
+                        <a href="https://www.root-me.org/Vignon-806697" target="_blank" style="color:#4caf50; text-decoration:none; font-weight:bold;">Voir mon profil</a>
+                    </div>
+                </div>
+                
+                <!-- TryHackMe -->
+                <div class="tryhackme-box" style="background: rgba(0, 0, 20, 0.8); border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.1); padding:1.5rem; width:300px;">
+                    <img src="assets/images/tryhackme-logo.png" alt="TryHackMe" style="width:60px; display:block; margin:auto;">
+                    <h3 style="text-align:center; margin-top:1rem;">TryHackMe</h3>
+                    <p style="text-align:center;">Rang : <strong>Top 9%</strong></p>
+                    <p style="text-align:center;">Rooms complétées : <strong>51</strong></p>
+                    <p style="text-align:center;">Badges gagnés : <strong>9</strong></p>
+                    <div style="text-align:center; margin-top:1rem;">
+                        <a href="https://tryhackme.com/p/Vignon" target="_blank" style="color:#2196f3; text-decoration:none; font-weight:bold;">Voir mon profil</a>
+                    </div>
+                </div>
+                
+                <!-- PicoCTF -->
+                <div class="picoctf-box" style="background: rgba(0, 0, 20, 0.8); border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.1); padding:1.5rem; width:300px;">
+                    <img src="assets/images/picoctf-logo.png" alt="PicoCTF" style="width:60px; display:block; margin:auto;">
+                    <h3 style="text-align:center; margin-top:1rem;">PicoCTF</h3>
+                    <p style="text-align:center;">Challenges résolus :</p>
+                    <ul style="text-align:left; margin: 0 auto 1rem auto; width: fit-content; font-weight: bold;">
+                        <li>53 Facile <span style="color: #888;">(+1 retiré)</span></li>
+                        <li>42 Moyen</li>
+                        <li>1 Difficile</li>
+                    </ul>
+                    <div style="text-align:center; margin-top:1rem;">
+                        <a href="https://play.picoctf.org/users/Vignon" target="_blank" style="color:#ff5722; text-decoration:none; font-weight:bold;">Voir mon profil</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contactez-moi</h2>
+                <div class="contact-icons" style="display: flex; gap: 2rem; justify-content: center; align-items: center;">
+                    <a href="https://www.linkedin.com/in/-vignon/" target="_blank" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin fa-3x"></i>
+                    </a>
+                    <a href="mailto:portfolio.stride387@passinbox.com" target="_blank" aria-label="Gmail">
+                        <i class="fa-solid fa-envelope fa-3x"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+         <button id="back-to-top" aria-label="Retour en haut">
+    <i class="fa-solid fa-rocket"></i>
+</button>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Mon Portfolio</p>
+        </div>
+    </footer>
+
+   
+    <script src="js/script.js"></script>
+</body>
+</html>

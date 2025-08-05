@@ -1,0 +1,5 @@
+- Conducted a comprehensive case study for assessing and prioritizing risks related to an information system
+
+- Applied the EBIOS Risk Manager methodology (contextualization, scenarios, security measures)
+
+- Proposed protection measures and remediation plans adapted to the criticality of assets and threat scenarios

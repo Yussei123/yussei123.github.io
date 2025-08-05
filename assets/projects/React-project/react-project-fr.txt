@@ -1,0 +1,7 @@
+- Conception et développement de sites web dynamiques avec React pour le frontend et Java SpringBoot pour le backend
+
+- Implémentation de mécanismes de sécurisation des échanges (authentification, autorisation, JWT, HTTPS)
+
+- Mise en œuvre des bonnes pratiques OWASP pour la prévention des vulnérabilités (XSS, CSRF, SQL Injection)
+
+- Tests d'intrusions de l'application finale

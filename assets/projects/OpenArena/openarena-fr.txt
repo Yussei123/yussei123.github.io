@@ -1,0 +1,11 @@
+- Mise en place et configuration de Firewall pour la segmentation et la sécurisation du trafic réseau
+
+- Installation et administration des serveurs DNS, DHCP pour la résolution de noms et la gestion des baux IP
+
+- Installation de serveur web de gestion de parties de jeux, de streaming et de push de configuration sur station de jeu (Jeu openArena) 
+
+- Déploiement d’un serveur Proxy pour le filtrage et le contrôle des accès Internet
+
+- Implémentation et gestion d’Active Directory (AD) pour l’authentification et la centralisation des identités
+
+- Renforcement des politiques de sécurité et contrôle des accès utilisateurs sur les stations de jeux raspberry pi
